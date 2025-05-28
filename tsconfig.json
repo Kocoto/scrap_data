@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020" /* Chỉ định phiên bản ECMAScript đích. */,
+    "module": "CommonJS" /* Chỉ định hệ thống module. */,
+    "outDir": "./dist" /* Thư mục output cho các tệp đã biên dịch. */,
+    "rootDir": "./src" /* Thư mục gốc chứa các tệp .ts. */,
+    "esModuleInterop": true /* Cho phép tương tác tốt hơn giữa CommonJS và ES Modules. */,
+    "strict": true /* Bật tất cả các tùy chọn kiểm tra kiểu nghiêm ngặt. */,
+    "skipLibCheck": true /* Bỏ qua việc kiểm tra kiểu của các tệp khai báo thư viện. */,
+    "forceConsistentCasingInFileNames": true /* Đảm bảo tính nhất quán về kiểu chữ trong tên tệp. */
+  },
+  "include": ["src/**/*"] /* Bao gồm tất cả các tệp trong thư mục src. */,
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ] /* Loại trừ node_modules và các tệp test. */
+}
